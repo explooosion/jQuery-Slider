@@ -1,0 +1,51 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+#wrapper {
+	margin: 0;
+	padding: 0;
+	position: relative;
+}
+#slider {
+	width: 300px;
+	height: 100%;
+	background-color: #1DD3B0;
+	float: left;
+	position: fixed;
+}
+#content {
+	width: 100%;
+	height: 100%;
+	background-color: #086375;
+	position: fixed;
+	float: left;
+	/*left: 300px;*/ /* default closed */ 
+}
+#header {
+	width: 100%;
+	height: 100px;
+	background-color: #88D498;
+	position: fixed;
+}
+#banner {
+	margin-left: 100px;
+}
+#slider-control {
+	width: 100px;
+	height: 100px;
+	background-color: #444444;
+	position: fixed;
+	cursor: pointer;
+}
+.slider-line {
+	width: 80px;
+	height: 12px;
+	background-color: #CCCCCC;
+	margin: 15px 10px;
+}
+#container {
+	width: 100%;
+	position: fixed;
+	margin-top: 100px;
+}
